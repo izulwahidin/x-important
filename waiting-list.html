@@ -1,0 +1,79 @@
+<div id="waiting-list" data-lang="dk" data-see-types="1" data-detailed-education="false" data-gender="false" data-client_id="18" data-client_secret="LtEtDc4StI17X3VfipT93v8YFIKkt21298372375"></div>
+<style>
+/*Background Color*/
+.hoc_ #main-form {background-color: #fff;}
+/*Checkbox color*/
+.hoc_ .custom-container input:hover~.checkmark {background-color: #458E71 !important;}
+.hoc_ .custom-container input:checked~.checkmark {background-color: #458E71 !important;}
+/*Multiselect color*/
+.multiselect__element{background-color: #458E71 !important; }
+.multiselect__option--highlight {background-color: #72393B !important;}
+.multiselect__option--highlight:after {background-color: #72393B
+ !important;}
+/*General*/
+.waiting-form-header {display: none !important;}
+.customize-label {font-size: 12px !important;}
+.customize-label-sm {font-size: 12px !important; text-transform: uppercase !important;}
+.customize-input.form-control {font-size: 14px;}
+.customize-picker {font-size: 14px !important;  font-weight: normal; }
+.hoc_ .customize-picker-calendar .cell.day.selected {background-color: #72393B;}
+input {
+    width: 350px;
+    padding: 5px !important;
+ height: 40px !important;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.customize-input.form-control {
+    padding: 5px !important;
+ height: 40px !important;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+/*Hide fields*/
+label[for=resident]
+{display: none !important; margin-bottom: 100px !important;}
+label[for=nationality]
+{ display: none !important;}
+#wl-nationality-input {display: none !important;}
+/*label[for=educationalInstitute]
+{ display: none !important;}
+#educationalInstitute
+{ display: none !important;}*/
+#row {border-bottom: 0px !important;}
+#vsa-list-4 {display:none !important;}
+/*button colors*/
+.bk_customize-btn-danger-bg {background-color: #72393B !important;}
+.customize-btn-def {
+  background-color: #458E71 !important;
+  color: #fff !important;
+}
+/*Hide NNNN*/
+#cpr {display:none !important;}
+#cpr-group {display:none !important;}
+#phone {display:block !important;}
+#wl-is-resident-input {margin-top: 60px !important;}
+/*Education section*/
+/*TODO: Hide profession header */
+#education-form > .row {display: none !important;}
+/*Section spacing underneath adresse*/
+.hoc_ .form-group label + div {
+  margin-top: 3px;
+}
+/*1-Column work*/
+.hoc_ .col-md-6 {
+  max-width: 100% !important;
+  width: 800px !important;
+  flex: 0 0 100% !important;
+}
+/*Headline label adjustments*/
+label[for=educationalInstitute]:before {
+  content: "Evt: ";
+}
+label[for=max-rent]:after {
+  content: " (inkl. forbrug)";
+}
+</style>
+<script src="https://wl.hococo.io/waiting-list.js"></script>
